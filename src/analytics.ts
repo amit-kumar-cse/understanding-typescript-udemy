@@ -1,4 +1,4 @@
-console.log('send anlytics data.');
+console.log('send analytics data.');
 
 class Analytics {
     serverUrl: string;
