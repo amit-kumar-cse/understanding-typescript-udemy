@@ -1,4 +1,4 @@
-console.log("Your code goes here");
+console.log('send anlytics data.');
 
 class Analytics {
     serverUrl: string;

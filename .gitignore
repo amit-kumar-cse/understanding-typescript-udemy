@@ -1,3 +1,4 @@
 .idea
 node_modules
 understanding-typescript-udemy.iml
+dist
