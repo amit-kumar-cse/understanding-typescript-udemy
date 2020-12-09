@@ -5,7 +5,7 @@ class Department {
         this.name = name;
     }
 
-    describe () {
+    describe (this: Department) {
         console.log(`Department: ${this.name}`);
     }
 }
@@ -14,5 +14,5 @@ const financeDept = new Department('Finance1');
 console.log(financeDept);
 financeDept.describe();
 
-const financeCopy = {describe: financeDept.describe};
+const financeCopy = {name: 'Dummy', describe: financeDept.describe};
 financeCopy.describe();
