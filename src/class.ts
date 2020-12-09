@@ -14,5 +14,3 @@ const financeDept = new Department('Finance1');
 console.log(financeDept);
 financeDept.describe();
 
-const financeCopy = {name: 'Dummy', describe: financeDept.describe};
-financeCopy.describe();
